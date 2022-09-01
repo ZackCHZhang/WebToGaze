@@ -1,1 +1,13 @@
 # WebToGaze
+This thesis proposes visual saliency detection, which predicts the attention of humans to a given image. By performing proper cross-task model transfers, the automatic generation of the user's gaze (as heatmaps, for instance) from a website screenshot (as an input substitute) is realized.
+Specifically, a state-of-the-art general saliency detection model is chosen as the baseline approach, which is then fine-tuned to work (or specialize) with website screenshot inputs. 
+Furthermore, based on the original modal a new model was proposed, which applied the visual information from a website, i.e. the image mask and text mask of a website were utilized in the model. 
+
+# Data Structure
+In Utils_function is some python files which aims to generate and prepocessing dataset from MySql dataset. In addtion also some file to achive the metrrics funxtions. Besides, some generatte figure methode also inside this folder.
+
+In saliency folder is the models, which achive the P-MSI, P-MSI-S-A, etc. models.
+
+In UI2CODE folder is the code based on MUlong et. al. function and with  changed to implement the Mask generation function in this thesis.
+
+In Other_Model folders is the models from other researchers, applied here aims to make the state-of-art in this thesis.
