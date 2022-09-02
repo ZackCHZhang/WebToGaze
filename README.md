@@ -11,3 +11,13 @@ In saliency folder is the models, which achive the P-MSI, P-MSI-S-A, etc. models
 In UI2CODE folder is the code based on MUlong et. al. function and with  changed to implement the Mask generation function in this thesis.
 
 In Other_Model folders is the models from other researchers, applied here aims to make the state-of-art in this thesis.
+
+# Dataset Download
+Because the size of dataset size:
+GazeMining Orignal Dataset Link: 
+Contrasitive Websites Dataset Link: https://drive.google.com/file/d/1QawwMYB9Vva6klUhgbXqmWBUhENeSdpd/view?usp=sharing
+FiWI after prepossing Dataset link: https://drive.google.com/file/d/1pgSF27-U1ZoVgWuHzzOTDeD0t52Y2daW/view?usp=sharing
+Combined Dataset Link: https://drive.google.com/file/d/1NQLSyk_Ldgrvv2OOPBaAFlxASAaDH3tL/view?usp=sharing
+
+Also State-of-Arts models and weights are also stored in google drive: https://drive.google.com/file/d/1Nl27PU1HxdOoT54s6pykxteLEvLMGQ8c/view?usp=sharing
+
