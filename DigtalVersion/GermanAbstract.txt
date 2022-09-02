@@ -1,0 +1,15 @@
+Die Analyse von Blickdaten, die aus der menschlichen Pupillen-Retina-Position und -Bewegung relativ zum Objekt des Interesses gewonnen werden, ermöglicht die Bestimmung der Aufmerksamkeit der Benutzer während ihrer Interaktion mit Benutzerschnittstellen. 
+Diese Analyse hat sich in verschiedenen Bereichen als nützlich erwiesen, z. B. in der virtuellen Realität, im Gesundheitsbereich und beim Online-Unterricht. 
+Gegenwärtig ist die Menge der Blickdaten jedoch aufgrund der Komplexität der für die Erfassung erforderlichen Experimente oft sehr gering und stark plattformabhängig. 
+Dies schränkt das Potenzial der aktuellen Blickanalyse ein, die stark von der Größe der verwendeten Blickdaten abhängt.
+
+
+In dieser Arbeit wird eine visuelle Saliency Detection, vorgeschlagen, die die Aufmerksamkeit von Menschen auf ein bestimmtes Bild vorhersagt. 
+Durch geeignete aufgabenübergreifende Modellübertragungen wird die automatische Generierung des Blicks des Nutzers (z. B. in Form von Heatmaps) aus einem Screenshot einer Website (als Eingabeersatz) realisiert. 
+Konkret wird ein hochmodernes, allgemeines Modell zur Erkennung von Erkennungsmerkmalen als Grundlage gewählt, das dann auf die Arbeit mit Screenshots von Webseiten abgestimmt (oder spezialisiert) wird. 
+Darüber hinaus wurde auf der Grundlage des ursprünglichen Modals ein neues Modell vorgeschlagen, das die visuellen Informationen einer Website verwendet, d. h. die Bild- und Textmaske einer Website wurden in das Modell aufgenommen. 
+
+Das Experiment zeigt, dass die Feinabstimmung des Basismodells auf Website-Snapshot-Datensätzen die Genauigkeit des Basismodells im Webseitenszenario verbessern kann. 
+Die Hinzufügung des maskierten Bereichs, der das Layout der Website darstellt, verbesserte die Leistung bei verschiedenen Bewertungsmetriken. 
+Die Hinzufügung von Aufmerksamkeitsmerkmalen schließlich erhöht die Genauigkeit mit einer größeren Spanne von zugewiesenen räumlichen Gewichtungen. 
+Zukünftige Arbeiten werden darin bestehen, Multi-Task-Lernen und eine verbesserte Merkmalsfusion hinzuzufügen, um die Genauigkeit des vorgeschlagenen Modells zu verbessern.

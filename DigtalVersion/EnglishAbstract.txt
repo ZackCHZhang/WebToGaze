@@ -1,0 +1,10 @@
+The analysis of eye gaze data, which is acquired from the human pupil-retinal location and movement relative to the object of interest, allows the determination of users' attention during their interactions with user interfaces shown to be beneficial in many fields including virtual reality and the health domain. 
+However, in the current state, gaze data is often very small in quantity due to the complexity of the experiments required for acquisition and is highly platform dependent. Thus limiting their scale of operations.
+
+This thesis proposes visual saliency detection, which predicts the attention of humans to a given image. By performing proper cross-task model transfers, the automatic generation of the user's gaze (as heatmaps, for instance) from a website screenshot (as an input substitute) is realized.
+Specifically, a state-of-the-art general saliency detection model is chosen as the baseline approach, which is then fine-tuned to work (or specialize) with website screenshot inputs. 
+Furthermore, based on the original modal a new model was proposed, which applied the visual information from a website, i.e. the image mask and text mask of a website were utilized in the model. 
+
+The experiment shows that fine-tuning the baseline model on website snapshot dataset can improve the accuracy of the baseline model in the web page scenario. Then, adding the masked area which represents the layout of the website improved performance on several evaluation metrics. 
+Moreover, the introduction of the attention features further increases the accuracy with a wider span of allocated spatial weights. 
+The future work will be to add multi-task learning and enhanced feature fusion to improve the accuracy of the proposed approach.
